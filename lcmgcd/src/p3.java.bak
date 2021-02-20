@@ -1,0 +1,22 @@
+/*
+write a prog to check whether the last digit of a num is even or odd  and also display the last digit of the num
+*/
+class p3 
+{
+	public static void main(String[] args) 
+	{
+		int num=2453;
+		int ld=num%10;
+		if(ld%2==0)
+		{
+		System.out.println("last digit is even");
+		System.out.println("last digit is:"+ ld);
+		}
+		else
+		{
+			System.out.println("last digit is odd");
+		System.out.println("last digit is:"+ ld);
+		}
+
+	}
+}
