@@ -1,0 +1,18 @@
+class  p2
+{
+	public static void main(String[] args) 
+	{
+		int a;
+
+		// local block
+		{
+			a = 10; // using a 
+			int b = 20 ;
+		}
+		int c ;
+		c=a + b ;
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+	}
+}

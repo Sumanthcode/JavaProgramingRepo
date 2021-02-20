@@ -1,0 +1,13 @@
+class p3
+{
+	public static void main(String[] args) 
+	{
+		B obj1 = new B(10);
+		B obj2 = new B(10);
+		System.out.println(obj1);
+		System.out.println(obj2);
+		/*System.out.println(obj1.i);
+		System.out.println(obj2.i);
+		System.out.println(obj1.equals(obj2));
+	*/}
+}

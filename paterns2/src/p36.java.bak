@@ -1,0 +1,52 @@
+/*
+g
+g*o
+g*o*o
+g*o*o*g
+g*o*o*g*l
+g*o*o*g*l*e
+
+*/
+class p36
+
+{
+	public static void main(String[] args) 
+	{
+		int k=0;
+		int n=4;
+		//char ch=1;
+		//int sp=3;
+		char[] ch={'j','a','v','a'};
+		for(int i=0;i<n;i++)
+		{
+			k=0;
+			//space
+			for(int j=0;j<(n-i)-1;j++)
+			{
+				System.out.print(" ");
+			}
+			int c=i*2+1;
+			for(int j=0;j<c;j++)
+			{
+				if(j==0||j==c/2||j==c-1)
+				{
+			   System.out.print(ch[k]);
+				}
+				else
+					System.out.print(" ");
+				if(j<c/2)
+				{
+					k++;
+				}
+				else
+					k--;
+
+			}
+			
+		System.out.println();
+		
+
+
+		}
+	}
+}

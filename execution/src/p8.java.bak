@@ -1,0 +1,8 @@
+class P8 
+{
+	static
+	{
+		System.out.println(p8.i);
+	}
+	static int i;
+}

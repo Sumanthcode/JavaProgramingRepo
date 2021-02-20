@@ -1,0 +1,21 @@
+class p5 
+{
+	public static void main(String[] args) 
+	{
+		D1 obj1 = new D1(10,20);
+		D1 obj2 = new D1(10,20);
+		System.out.println(obj1.equals(obj2));
+		System.out.println("--------------------");
+		D2 obj3 = new D2(10,20,40,40.40);
+		D2 obj4 = new D2(10,30,30,40.40);
+		System.out.println(obj3.equals(obj4));
+		D2 obj5 = new D2(10,20,30,40.40);
+		D2 obj6 = new D2(10,20,30,40.40);
+		System.out.println(obj5.equals(obj6));
+		System.out.println("---------------------------");
+		D2 obj7 = new D3(10,20,30,40.40, true,'a');
+		D2 obj8 = new D3(10,20,30,40.40, true,'a');
+		System.out.println(obj7.equals(obj8));
+
+	}
+}

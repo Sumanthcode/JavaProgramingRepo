@@ -1,0 +1,20 @@
+
+// DIFFERENT WAYS TO USE STATIC MEMBER FROM NON-STATIC CONTEXT?
+
+
+class p12 
+{
+	static int a=10;
+	void test()
+	{
+		System.out.println(a);
+		System.out.println(p12.a);
+		System.out.println(this.a);
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("from main");
+		p12 obj=new p12();
+		obj.test();
+	}
+}

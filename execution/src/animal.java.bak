@@ -1,0 +1,13 @@
+class animal 
+{
+	double weight, hight;
+	animal()
+	{
+	}
+	animal(double weight,double hight)
+	{
+		this.weight=weight;
+		this.hight=hight;
+	}
+}
+

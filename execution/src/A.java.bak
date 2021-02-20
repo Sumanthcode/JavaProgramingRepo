@@ -1,0 +1,16 @@
+class A 
+{
+	int i=10;
+	static int j=20;
+	static void test(A x)
+	{
+		System.out.println(x.i);
+		System.out.println(x.j);
+	}
+	public static void main(String[] args) 
+	{
+		A ob=new A();
+			test(ob);
+	
+	}
+}

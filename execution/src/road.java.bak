@@ -1,0 +1,31 @@
+class road 
+{
+
+	public static void main(String[] args) 
+	{
+		car ob=new car(111,"volkswagen","red",50);
+		System.out.println("u_no:" +ob.u_no);
+		System.out.println("name:" +ob.name);
+		System.out.println("color:" +ob.color);
+		System.out.println("milage:" +ob.mile);
+		ob.move();
+		System.out.println("-------------------");
+		car ob1 =new car(222,"jaguar","white",60);
+		System.out.println("u_no:" +ob1.u_no);
+		System.out.println("name:" +ob1.name);
+		System.out.println("color:" +ob1.color);
+		System.out.println("milage:" +ob1.mile);
+		ob1.move1();
+		System.out.println("-------------------");
+		car ob2 =new car(333,"aulto","grey",40);
+		System.out.println("u_no:" +ob2.u_no);
+		System.out.println("name:" +ob2.name);
+		System.out.println("color:" +ob2.color);
+		System.out.println("milage:" +ob2.mile);
+		ob2.move2();
+		System.out.println("-------------------");
+
+		System.out.println("no.of cars:"+car.count);
+
+	}
+}

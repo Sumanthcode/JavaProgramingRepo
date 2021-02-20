@@ -1,0 +1,25 @@
+class p11 
+{
+	int x =10;
+	boolean y;
+	public static void main(String[] args) 
+	{
+		System.out.println("from main");
+		p11 obj1=new p11();
+		System.out.println("---------------");
+		System.out.println("from obj1 refered by obj1");
+		obj1.x=20;
+		System.out.println(obj1);
+		System.out.println(obj1.x);
+		System.out.println(obj1.y);
+		System.out.println("-----------------");
+		p11 obj2=new p11();
+		System.out.println("------------------");
+		System.out.println("from obj refered by obj2");
+		System.out.println(obj2);
+		System.out.println(obj2.x);
+		System.out.println(obj2.y);
+		System.out.println("------------------");
+		System.out.println(obj1==obj2);
+	}
+}

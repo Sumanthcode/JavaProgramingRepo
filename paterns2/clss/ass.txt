@@ -1,0 +1,42 @@
+1. 
+abcd
+ abc
+  ab
+   a
+2.
+        a
+       ab
+      abc
+     abcd
+3.
+    abcd
+    abc
+    ab
+    a
+4.
+   1
+   ab
+   123
+   abcd
+   12345
+5.
+12345
+ abcd
+  123
+   ab
+    1
+
+6.
+
+       1
+      ab
+     123
+    abcd
+   12345
+7.
+12345
+abcd
+123
+ab
+1
+8.
